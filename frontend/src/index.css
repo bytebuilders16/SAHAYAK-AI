@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-slate-900;
+  }
+}
+
+/* Custom Civics Card Glow and Tricolor Badges */
+.tricolor-border {
+  background: linear-gradient(to right, #FF9933, #FFFFFF, #138808);
+  height: 3px;
+  width: 100%;
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.civic-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(11, 37, 69, 0.07), 0 2px 6px -1px rgba(11, 37, 69, 0.04);
+}
+
+.civic-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.civic-card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(11, 37, 69, 0.12), 0 4px 10px -2px rgba(11, 37, 69, 0.06);
+}
+
+/* Custom scrollbar for chat */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

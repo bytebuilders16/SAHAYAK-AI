@@ -1,0 +1,293 @@
+[
+  {
+    "id": "nsp-post-matric",
+    "name": "Post-Matric Scholarship for Higher Education (NSP)",
+    "category": "Education",
+    "description": "Financial assistance to students from eligible income backgrounds pursuing post-secondary studies, diplomas, and undergraduate or postgraduate degrees.",
+    "benefits": "100% tuition fee reimbursement and maintenance allowance ranging from ₹4,000 to ₹13,500 per annum depending on the degree/course level.",
+    "eligibility": "Indian citizens enrolled in recognized post-secondary institutions whose total family annual income does not exceed ₹2,50,000.",
+    "income_limit": 250000,
+    "age_range": [17, 30],
+    "applicable_states": ["All"],
+    "occupation": ["Student"],
+    "student_required": true,
+    "gender": "All",
+    "target_requirements": ["education"],
+    "required_documents": [
+      "Aadhaar Card or Student ID",
+      "Income Certificate issued by competent revenue authority",
+      "Previous Year Marksheet / Passing Certificate",
+      "Current Fee Receipt & Bonafide Student Certificate",
+      "Active Bank Account Passbook (linked with Aadhaar)"
+    ],
+    "application_steps": [
+      "Register on National Scholarship Portal (scholarships.gov.in) with Mobile & Aadhaar.",
+      "Fill in academic details, institute code, and course particulars.",
+      "Upload verified caste/income certificates and institute bonafide.",
+      "Submit application for online verification by institute nodal officer.",
+      "Track status and receive Direct Benefit Transfer (DBT) directly into bank account."
+    ],
+    "official_url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "nsp-mcm",
+    "name": "Merit-cum-Means Scholarship for Technical & Professional Courses",
+    "category": "Education",
+    "description": "Targeted scholarship to support meritorious undergraduate and postgraduate students pursuing technical and professional degree programs.",
+    "benefits": "Financial support covering maintenance allowance up to ₹1,000 per month and course fee reimbursement up to ₹20,000 per annum.",
+    "eligibility": "Students pursuing recognized professional/technical courses with at least 50% marks in previous examinations and annual family income up to ₹2,50,000.",
+    "income_limit": 250000,
+    "age_range": [17, 28],
+    "applicable_states": ["All"],
+    "occupation": ["Student"],
+    "student_required": true,
+    "gender": "All",
+    "target_requirements": ["education"],
+    "required_documents": [
+      "Aadhaar Card",
+      "Class 12 / Graduation Qualifying Exam Marksheet",
+      "Income Certificate from authorized Tehsildar / Sub-Divisional Magistrate",
+      "Proof of admission in recognized technical/professional institute",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      "Visit National Scholarship Portal (NSP) and complete One Time Registration (OTR).",
+      "Select Scheme under Central Schemes Ministry of Education section.",
+      "Upload verified documents and fee receipts.",
+      "Institute verification followed by State Nodal Officer approval.",
+      "Disbursement via PFMS (DBT mode)."
+    ],
+    "official_url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Agriculture",
+    "description": "Central sector scheme providing income support to all landholding farmer families across the country for agricultural and domestic needs.",
+    "benefits": "₹6,000 per year paid in 3 equal installments of ₹2,000 directly deposited into Aadhaar-seeded bank accounts.",
+    "eligibility": "Small and marginal farmer families with cultivable landholding in their names. Institutional landholders and high-income taxpayers excluded.",
+    "income_limit": null,
+    "age_range": [18, 75],
+    "applicable_states": ["All"],
+    "occupation": ["Farmer", "Self-Employed"],
+    "farmer_required": true,
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["agriculture"],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Documents (Khatauni / Land record RoR)",
+      "Aadhaar-seeded Bank Account Passbook",
+      "Active Mobile Number for e-KYC"
+    ],
+    "application_steps": [
+      "Visit the official PM-KISAN portal (pmkisan.gov.in) or visit nearest CSC center.",
+      "Click on 'New Farmer Registration' and enter Aadhaar and Mobile number.",
+      "Enter state, district, sub-district, block, and land registration ID.",
+      "Complete OTP-based e-KYC or biometric authentication at Common Service Centre.",
+      "State nodal office verifies land records; funds disbursed per installment schedule."
+    ],
+    "official_url": "https://pmkisan.gov.in"
+  },
+  {
+    "id": "pm-jay",
+    "name": "Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "category": "Healthcare",
+    "description": "The world's largest government-funded healthcare assurance scheme offering cashless secondary and tertiary hospitalization care.",
+    "benefits": "Cashless health cover up to ₹5,00,000 per family per year for secondary and tertiary care hospitalization across empanelled hospitals nationwide.",
+    "eligibility": "Families identified by SECC 2011 database criteria and low-income families holding valid ration cards / state health cards. No cap on family size or age.",
+    "income_limit": 300000,
+    "age_range": [0, 100],
+    "applicable_states": ["All"],
+    "occupation": ["All"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["healthcare"],
+    "required_documents": [
+      "Aadhaar Card / Government Photo ID",
+      "Ration Card or PM-JAY Family ID letter",
+      "Active Mobile Number"
+    ],
+    "application_steps": [
+      "Check eligibility on mera.pmjay.gov.in using Mobile number or Ration card.",
+      "Visit any Ayushman Mitra kiosk at nearest government or empanelled private hospital.",
+      "Authenticate your identity using Aadhaar e-KYC.",
+      "Receive your Ayushman Bharat Golden Card with unique ABHA number.",
+      "Present card at empanelled hospital for completely cashless medical treatment."
+    ],
+    "official_url": "https://pmjay.gov.in"
+  },
+  {
+    "id": "pmay",
+    "name": "Pradhan Mantri Awas Yojana (PMAY – Housing for All)",
+    "category": "Housing",
+    "description": "Government initiative ensuring all eligible urban and rural families without a pucca house receive pucca housing with basic amenities.",
+    "benefits": "Interest subsidy up to ₹2.67 lakh under Credit Linked Subsidy Scheme (CLSS) or direct financial assistance of ₹1.20 - ₹1.30 lakh for house construction in rural areas.",
+    "eligibility": "Families with no pucca house in their name anywhere in India, categorized under EWS (income up to ₹3L) or LIG (income up to ₹6L).",
+    "income_limit": 600000,
+    "age_range": [21, 70],
+    "applicable_states": ["All"],
+    "occupation": ["All"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["housing"],
+    "required_documents": [
+      "Aadhaar Card of all family members",
+      "Income Certificate / Salary Slip / Form 16",
+      "Bank Account statement (last 6 months)",
+      "Proof of no existing pucca house ownership affidavit",
+      "Land title or allotment letter (if constructing)"
+    ],
+    "application_steps": [
+      "Log in to pmaymis.gov.in (Urban) or pmayg.nic.in (Gramin) using citizen registration.",
+      "Choose appropriate component (CLSS / Beneficiary-led Construction).",
+      "Provide household details, existing housing status, and Aadhaar info.",
+      "Upload required income and address documents.",
+      "Verification by local municipal corporation / Gram Panchayat committee."
+    ],
+    "official_url": "https://pmaymis.gov.in"
+  },
+  {
+    "id": "ignoaps",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "category": "Social Security",
+    "description": "Non-contributory monthly pension scheme providing financial dignity and sustenance to elderly citizens living below the poverty line.",
+    "benefits": "Monthly pension of ₹200 to ₹500 (supplemented by additional state contributions up to ₹1,000 - ₹2,500/month in many states) credited via DBT.",
+    "eligibility": "Indian citizens aged 60 years or above living in households categorized under Below Poverty Line (BPL).",
+    "income_limit": 150000,
+    "age_range": [60, 100],
+    "applicable_states": ["All"],
+    "occupation": ["Retired", "Unemployed", "Elderly", "All"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["social_security"],
+    "required_documents": [
+      "Aadhaar Card / Age verification certificate",
+      "BPL Ration Card or BPL Survey list inclusion proof",
+      "Domicile / Residence Certificate",
+      "Aadhaar-linked Bank or Post Office Savings Account Passbook"
+    ],
+    "application_steps": [
+      "Obtain application form from Block Development Office (BDO) or District Social Welfare Office.",
+      "Attach verified age and BPL proofs.",
+      "Submit to Gram Panchayat secretary or Urban Local Body officer.",
+      "Inspection and sanction by Sub-Divisional Officer (SDO).",
+      "Direct pension release every month into bank account."
+    ],
+    "official_url": "https://nsap.nic.in"
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "category": "Social Security",
+    "description": "Comprehensive central scheme offering holistic support to artisans and craftspeople engaged in 18 traditional trades.",
+    "benefits": "Recognition as Vishwakarma through certificate and ID, skill upgrading with ₹500/day stipend, ₹15,000 modern toolkit incentive, and collateral-free enterprise loans up to ₹3,00,000 at concessional 5% interest rate.",
+    "eligibility": "Artisan or craftsperson working on hands-on tools in one of 18 trades (carpenter, blacksmith, goldsmith, potter, cobbler, tailor, etc.) aged 18+.",
+    "income_limit": 350000,
+    "age_range": [18, 65],
+    "applicable_states": ["All"],
+    "occupation": ["Artisan", "Craftsperson", "Self-Employed"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["social_security", "entrepreneurship"],
+    "required_documents": [
+      "Aadhaar Card",
+      "Active Mobile Number",
+      "Bank Account Details",
+      "Trade-specific declaration / verification from Gram Panchayat / ULB"
+    ],
+    "application_steps": [
+      "Visit Common Service Centre (CSC) or pmvishwakarma.gov.in.",
+      "Authenticate with Aadhaar e-KYC and register your traditional trade.",
+      "Tier 1 Gram Panchayat / ULB verification of your artisan practice.",
+      "Enroll for 5-7 days basic skill training with daily stipend.",
+      "Receive digital ID, toolkit grant, and apply for low-interest credit."
+    ],
+    "official_url": "https://pmvishwakarma.gov.in"
+  },
+  {
+    "id": "sukanya-samriddhi",
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "category": "Social Security",
+    "description": "Small deposit savings scheme targeted for the welfare, education, and marriage security of the girl child with high government-backed interest.",
+    "benefits": "Attractive government interest rate (currently 8.2% p.a.), triple tax exemption under Section 80C (EEE status), and secure maturity fund for higher education at age 18.",
+    "eligibility": "Legal guardian or parents can open account for a girl child from birth up to the age of 10 years. Maximum two accounts per family.",
+    "income_limit": null,
+    "age_range": [0, 10],
+    "applicable_states": ["All"],
+    "occupation": ["All"],
+    "student_required": false,
+    "gender": "Female",
+    "target_requirements": ["education", "social_security"],
+    "required_documents": [
+      "Birth Certificate of the girl child",
+      "Identity and Address Proof of the parent/guardian (Aadhaar/PAN/Voter ID)",
+      "Passport size photos of child and parent"
+    ],
+    "application_steps": [
+      "Collect SSY application form from any Post Office or authorized commercial bank branch.",
+      "Fill child details and attach verified birth certificate.",
+      "Make initial opening deposit (minimum ₹250).",
+      "Receive passbook with account number and track deposits annually.",
+      "Partial withdrawal allowed when girl turns 18 for accredited university admission."
+    ],
+    "official_url": "https://www.indiapost.gov.in"
+  },
+  {
+    "id": "atal-pension",
+    "name": "Atal Pension Yojana (APY)",
+    "category": "Social Security",
+    "description": "Guaranteed pension scheme for workers in unorganized sectors to secure predictable monthly income during old age.",
+    "benefits": "Guaranteed minimum monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000 or ₹5,000 from age 60 until life, with corpus returned to nominee upon demise.",
+    "eligibility": "Indian citizens aged 18 to 40 years holding a savings bank account. Must not be an income taxpayer.",
+    "income_limit": 400000,
+    "age_range": [18, 40],
+    "applicable_states": ["All"],
+    "occupation": ["Unorganized Worker", "Self-Employed", "Daily Wage", "All"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["social_security"],
+    "required_documents": [
+      "Aadhaar Card",
+      "Savings Bank Account Passbook",
+      "Registered Mobile Number"
+    ],
+    "application_steps": [
+      "Approach your bank branch or netbanking portal where you maintain a savings account.",
+      "Fill the APY subscriber registration form and select target monthly pension amount (₹1,000 - ₹5,000).",
+      "Authorize auto-debit of monthly/quarterly premium contribution.",
+      "Receive PRAN (Permanent Retirement Account Number) card and SMS confirmation.",
+      "Pension commences automatically upon turning 60 years of age."
+    ],
+    "official_url": "https://www.npscra.nsdl.co.in"
+  },
+  {
+    "id": "pm-mudra",
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "category": "Social Security",
+    "description": "Provides collateral-free institutional credit up to ₹10-20 Lakh to micro and small non-farm enterprises for self-employment and business scaling.",
+    "benefits": "Loans up to ₹50,000 (Shishu), ₹5 Lakh (Kishore), and ₹10 Lakh (Tarun) without collateral at competitive interest rates with nominal processing fee.",
+    "eligibility": "Non-corporate, non-farm small/micro enterprises including shopkeepers, artisans, small manufacturing units, food service, repair shops.",
+    "income_limit": null,
+    "age_range": [18, 65],
+    "applicable_states": ["All"],
+    "occupation": ["Self-Employed", "Business Owner", "Artisan", "All"],
+    "student_required": false,
+    "gender": "All",
+    "target_requirements": ["entrepreneurship", "social_security"],
+    "required_documents": [
+      "Aadhaar Card / Voter ID / Passport",
+      "Proof of residence & business establishment address",
+      "Business Project Proposal / Quotation for machinery or inventory",
+      "Past 6 months bank statement (if existing enterprise)"
+    ],
+    "application_steps": [
+      "Prepare a simple business plan describing goods/services and funding needed.",
+      "Apply online via Udyami Mitra portal (udyamimitra.in) or visit any commercial bank/NBFC.",
+      "Submit application under desired tier (Shishu, Kishore, or Tarun).",
+      "Bank evaluates proposal and sanctions Mudra debit card for working capital.",
+      "Drawdown funds as needed for enterprise purchase."
+    ],
+    "official_url": "https://www.mudra.org.in"
+  }
+]
