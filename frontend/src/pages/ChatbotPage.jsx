@@ -1,14 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
-import { 
-  Send, 
-  Bot, 
-  User, 
-  Sparkles, 
-  ExternalLink, 
-  RefreshCw, 
-  Info, 
+import {
+  Send,
+  Bot,
+  User,
+  Sparkles,
+  ExternalLink,
+  RefreshCw,
+  Info,
   ShieldCheck,
   FileText,
   CornerDownLeft
@@ -17,7 +17,7 @@ import {
 export default function ChatbotPage({ onSelectScheme }) {
   const { t } = useLanguage();
   const { userProfile } = useAuth();
-  
+
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
@@ -64,7 +64,7 @@ export default function ChatbotPage({ onSelectScheme }) {
     setLoading(true);
 
     try {
-      const res = await fetch('/api/chat', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -108,7 +108,7 @@ export default function ChatbotPage({ onSelectScheme }) {
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 flex flex-col h-[calc(100vh-140px)] min-h-[580px]">
-      
+
       {/* Bot Header Card */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-4 sm:p-5 mb-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
@@ -157,11 +157,10 @@ export default function ChatbotPage({ onSelectScheme }) {
               )}
 
               <div
-                className={`max-w-[85%] rounded-2xl px-4 py-3 text-xs leading-relaxed ${
-                  isBot
-                    ? 'bg-slate-50 border border-slate-200 text-slate-800'
-                    : 'bg-blue-700 text-white shadow'
-                }`}
+                className={`max-w-[85%] rounded-2xl px-4 py-3 text-xs leading-relaxed ${isBot
+                  ? 'bg-slate-50 border border-slate-200 text-slate-800'
+                  : 'bg-blue-700 text-white shadow'
+                  }`}
               >
                 {/* Formatted Markdown-like body */}
                 <div className="whitespace-pre-wrap font-sans">
